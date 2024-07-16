@@ -1,0 +1,58 @@
+.promo-banner {
+    background: url('../../images/home.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+    opacity: 0.3;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.promo-banner:hover {
+    animation: fadeIn 1s ease-in;
+    opacity: 1;
+}
+
+.promo-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.promo-banner p {
+    font-size: 1.2rem;
+}
+
+.photo {
+    width: 100%;
+    height: 300px;
+}
+
+#food {
+    background: url('../../images/food.jpg') no-repeat center center/cover;
+}
+
+#staff {
+    background: url('../../images/staff.jpg') no-repeat center center/cover;
+}
+
+#restaurant {
+    background: url('../../images/restaurant.jpg') no-repeat center center/cover;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.3;
+    }
+}

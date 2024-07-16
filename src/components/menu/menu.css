@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.menu .dish {
+    flex: 1 1 calc(33% - 20px);
+    background: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.menu .dish:hover {
+    background: #e0e0e0;
+}
+
+#pizza {
+    background: url('../../images/pizza.jpg') no-repeat center center/cover;
+}
+
+#pasta {
+    background: url('../../images/pasta.jpg') no-repeat center center/cover;
+}
+
+#food {
+    background: url('../../images/food.jpg') no-repeat center center/cover;
+}
+
+#sandwich {
+    background: url('../../images/sandwitch.jpg') no-repeat center center/cover;
+}
+
+#vine {
+    background: url('../../images/vine.jpg') no-repeat center center/cover;
+}
